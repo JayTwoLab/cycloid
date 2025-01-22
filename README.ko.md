@@ -15,7 +15,7 @@
 ### `Cycloid` 클래스
 - **생성자 (`__init__`)**
   - `radius`: 원의 반지름 (기본값: 1)
-  - `t_range`: t의 시작과 종료 범위 (기본값: 0 ~ \(4\pi\))
+  - `t_range`: t의 시작과 종료 범위 (기본값: 0 ~ [![equation](https://latex.codecogs.com/png.latex?%5C%284%5Cpi%5C%29)](#) )
   - `points`: 생성할 점의 개수 (기본값: 1000)
 - **`calculate_points` 메서드**
   - 사이클로이드 곡선의 x, y 좌표를 계산합니다.
@@ -29,7 +29,7 @@ CLI 입력값을 받아 `Cycloid` 인스턴스를 생성하고 곡선을 시각�
 `argparse`를 이용하여 CLI 옵션을 제공합니다.
 - `--radius`: 원의 반지름 (기본값: 1)
 - `--t_start`: t의 시작값 (기본값: 0)
-- `--t_end`: t의 종료값 (기본값: \(4\pi\))
+- `--t_end`: t의 종료값 (기본값: 4pi)
 - `--points`: 생성할 점의 개수 (기본값: 1000)
 
 ## 사용법
