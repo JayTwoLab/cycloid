@@ -15,7 +15,7 @@ This project is a Python-based tool designed to generate and visualize cycloid c
 ### `Cycloid` Class
 - **Constructor (`__init__`)**
   - `radius`: Radius of the circle (default: 1)
-  - `t_range`: Start and end range of \(t\) (default: 0 to \(4\pi\))
+  - `t_range`: Start and end range of \(t\) (default: 0 to [![equation](https://latex.codecogs.com/png.latex?%5C%284%5Cpi%5C%29)](#) )
   - `points`: Number of points to generate (default: 1000)
 - **`calculate_points` Method**
   - Calculates the x and y coordinates of the cycloid curve.
@@ -29,7 +29,7 @@ Receives CLI input, creates a `Cycloid` instance, and visualizes the curve.
 Uses `argparse` to provide CLI options:
 - `--radius`: Radius of the circle (default: 1)
 - `--t_start`: Start value of \(t\) (default: 0)
-- `--t_end`: End value of \(t\) (default: \(4\pi\))
+- `--t_end`: End value of \(t\) (default: 4pi)
 - `--points`: Number of points to generate (default: 1000)
 
 ## Usage
